@@ -89,8 +89,14 @@ header a:visited {
     position: relative;
     top: 2em;
     left: 15em;
+    transition: transform 0.2s;
     margin: 0;
     padding: 0;
+    width: 550px
+}
+
+.r6-qual:hover {
+    transform: scale(1.05);
 }
 
 .r6-headline {
@@ -109,4 +115,38 @@ header a:visited {
 
 .agn-r6 {
     border-radius: 6px;
+}
+
+/* Merch Article Preview */
+
+.quest-merch {
+    float: right;
+    position: relative;
+    bottom: 18em;
+    right: 20em;
+    transition: transform .2s;
+    margin: 0;
+    padding: 0;
+    width: 235px;
+}
+
+.quest-merch:hover {
+    transform: scale(1.05);
+}
+
+.merch-release {
+    background-color: #fce9ea;
+    border-radius: 4px;
+    width: 232px;
+    height: 20px;
+    font-family: "Montserrat", sans-serif;
+    src: url(../Webdev/Montserrat-ExtraBold.ttf);
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 2.1em;
+}
+
+.merch-pic {
+    border-radius: 5px;
 }
