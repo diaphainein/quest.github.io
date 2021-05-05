@@ -5,14 +5,12 @@
 }
 
 body {
-    font-family: "Dosis", sans-serif;
     margin: 0;
     background-color: rgb(19, 19, 19);
 }
 
-@font-face {
-    font-family: "Dosis", sans-serif;
-    src: url(./Dosis-SemiBold.ttf);
+a:visited {
+    text-decoration: none;
 }
 
 /* Header */
@@ -85,6 +83,17 @@ header a:visited {
 
 /* Recent Article */
 
+.latest-news {
+    color: #fff8dc;
+    background-color: #521416;
+    padding: 5px;
+    position: relative;
+    top: 1.1em;
+    left: 8.5em;
+    font-family: "Dosis", sans-serif;
+    src: url(../Webdev/Dosis-SemiBold.ttf);
+}
+
 .r6-qual {
     position: relative;
     top: 2em;
@@ -149,4 +158,63 @@ header a:visited {
 
 .merch-pic {
     border-radius: 5px;
+}
+
+/* CSGO Preview */
+
+.quest-csgo {
+    float: right;
+    position: relative;
+    bottom: 8.5em;
+    right: 5.3em;
+    transition: transform .2s;
+    margin: 0;
+    padding: 0;
+    width: 235px;
+}
+
+.quest-csgo:hover {
+    transform: scale(1.05);
+}
+
+.csgo-announce {
+    background-color: #fce9ea;
+    border-radius: 4px;
+    width: 232px;
+    height: 20px;
+    font-family: "Montserrat", sans-serif;
+    src: url(../Webdev/Montserrat-ExtraBold.ttf);
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 2.1em;
+}
+
+.csgo {
+    border-radius: 5px;
+}
+
+.sponsors {
+    background-color: #521416;
+    height: 122px;
+    position: relative;
+    top: 25px;
+}
+
+.gahmers-logo {
+    position: relative;
+    left: 17em;
+}
+
+.alt-customs-logo {
+    position: relative;
+    left: 28em;
+    bottom: 1.7em;
+}
+
+.rogue-energy-logo {
+    float: right;
+    position: relative;
+    top: 2.2em;
+    left: 9em;
 }
