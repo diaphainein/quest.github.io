@@ -1,96 +1,92 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="quest.css"/>
-        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
-        <title>Team Quest Gaming - Esports Organization</title>
-    </head>
-    <body>
-    <section class="quest-header">
-        <header class="nav-container">
-        <div class="nav-bar"> 
-            <li> <a href="#"> Home </a> </li> 
-            <li> <a href="##"> News </a> </li> 
-            <li> <a href="###"> Sponsors </a> </li>
-            <li> <a href="####"> Streams </a> </li>
-            <li> <a href="#####"> Shop </a> </li>
-        </div> 
-    </header>
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <header class="quest-logo-container">
-            <div class="quest-logo">
-           <img src="quest.png" alt="Team Quest logo" width="75" height="75">
-           </div>
-        </header>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <header class="teams-container">
-        <div class="teams-bar">
-            <li> <a href="######"> Rainbow Six Siege </a> </li> 
-            <li> <a href="#######"> Call of Duty </a> </li>
+    <title>Bootstrap Project</title>
+  </head>
+  <body class="bg-dark">
+
+ <!-- Navigation -->
+
+ <div class="container-fluid sticky-top">
+ <header class="bg-dark border-bottom border-danger row">
+    <nav class="navbar navbar-expand-lg navbar-info bg-dark">
+        <a class="navbar-brand" href="#">Team Quest</a>
+        <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><img src="menu.png" alt="Toggle navigation" width="20" height="20"></span>
+        </button>
+        <div class="col-sm-1 col-lg-2 collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Teams
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Call of Duty</a></li>
+                <li><a class="dropdown-item" href="#">Rainbow Six Siege</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Content Creators</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
         </div>
+      <div class="col-sm-2 col-lg-3">
+        <img class="img-fluid me-3" src="quest.png" alt="quest logo" width="75" height="75">
+      </div>
+      <ul class="col-sm-2 col-lg-3 mt-lg-1 list-unstyled list-inline d-flex justify-content-end me-lg-4">
+        <li class="list-inline-item"><a href="#"><img src="twitter.png" alt="Twitter logo" width="25" height="25"></a></li>
+        <li class="list-inline-item"><a href="#"><img src="ig.png" alt="Twitter logo" width="20" height="20"></a></li>
+      </ul>
+    </nav>
     </header>
+  </div>
+  <!-- Recent News Previews -->
+  <div class="container-xxl">
+  <section class="row my-3 me-lg-5 justify-content-center">
+      <div class="col-lg-6 my-lg-3 my-xl-1">
+     <a class="text-decoration-none text-dark" href="#"> <img class="rounded img-fluid" src="r6-qual.jpg" alt="AGN Rainbow 6 Qualifier">
+      <p class="bg-light rounded text-center">QUEST R6 TO PLAY IN AGN QUALIFIER</p>
+      </a>
+    </div>
+    <div class="col-2 me-5 mb-xl-2 mt-xxl-4 g-2 d-flex-sm justify-content-center">
+      <img class="rounded" src="quest-merch.jpg" alt="Quest's Merchandise Lineup" width="232" height="130">
+      <p class="bg-light rounded text-center" style="width: 232px;">QUEST RELEASES MERCH</p>
+
+      <img class="rounded" src="csgo.jpg" alt="CSGO image" width="232" height="130">
+      <p class="bg-light rounded text-center" style="width: 232px;">QUEST ENTERS CS:GO</p>
+    </div>
     </section>
+    </div>
 
-<!--R6 Event Article-->
-<section class="latest-container">
-    <span class="latest-news">Latest News</span>
-</section>
-
-<article class="r6-preview">
-
-      <section class="agn-r6-container">
-       
-        <div class="agn-r6">
-          <a href="#">
-          <img src="r6-qual.jpg" alt="AGN Rainbow Six Qualifier" width="531" height="299">
-          </a>
+    <div class="container-fluid">
+      <div class="row d-flex align-items-center justify-content-lg-center" style="background-color: #521416;"> 
+        <div class="col-sm-12 col-lg-2 d-flex justify-content-center">
+        <img src="gahmers.png" alt="Gahmers logo" width="100" height="100">
         </div>
-    </section>
-
-    <section class="r6-headline-container">
-
-          <div class="r6-headline">
-             <p class="r6-headline-text">Quest R6 to play in AGN Qualifier</p>
+        <div class="col-sm-12 col-lg-2 d-flex justify-content-center">
+        <img src="alt-customs.png" alt="Alt customs logo" width="160" height="65">
+        </div>
+        <div class="col-sm-12 col-lg-2 mt-4 mb-3 d-flex justify-content-center ">
+          <img src="rogue-energy.png" alt="Rogue energy logo" width="153" height="42">
           </div>
-    </section> 
-   </article>      
-<!--Merch Article Preview-->
-<article class="quest-merch">
-    <a href="#">
-        <img class="merch-pic" src="quest-merch.jpg" alt="Lineup of Team Quest merch" width="232" height="130">
-        </a>
-        <div class="merch-release">
-            <p>Quest releases merch</p>
-        </div>
-</article>
-<!--CSGO Team Preview-->
-<article class="quest-csgo">
-    <a href="#">
-        <img class="csgo" src="csgo.jpg" alt="CS:GO game picture" width="232" height="130">
-        </a>
-        <div class="csgo-announce">
-            <p>Quest enters CS:GO</p>
-        </div>
-</article>
-
-<section class="sponsors">
-    <a href="https://www.gahmers.com/collections/team-quest">
-        <img class="gahmers-logo" src="gahmers.png" alt="Gahmers logo" width="120" height="120">
-        </a>
-    
-    <a href="https://www.altcustoms.com">
-        <img class="alt-customs-logo" src="alt-customs.png" alt="Alt customs logo" width="160" height="65">
-        </a>
-
-    <a href="http://www.rogueenergy.com">
-        <img class="rogue-energy-logo" src="rogue-energy.png" alt="Rogue Energy logo" width="153" height="42">
-    </a>
-
-    </section>
-
-    </body>
-    
+      </div>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
 </html>
